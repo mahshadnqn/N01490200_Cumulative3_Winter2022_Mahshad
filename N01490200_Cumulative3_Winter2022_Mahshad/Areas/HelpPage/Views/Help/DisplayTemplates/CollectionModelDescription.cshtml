@@ -1,0 +1,6 @@
+@using N01490200_Cumulative3_Winter2022_Mahshad.Areas.HelpPage.ModelDescriptions
+@model CollectionModelDescription
+@if (Model.ElementDescription is ComplexTypeModelDescription)
+{
+    @Html.DisplayFor(m => m.ElementDescription)
+}
